@@ -6,10 +6,12 @@ venv/
 __pycache__/
 *.pyc
 
-# Data artifacts
-data/database/*.db
-data/database/*.sqlite
-data/artifacts/*.joblib
+# Data files
+data/**/*.csv
+data/**/*.part
+
+# jupyter notebooks
+.ipynb_checkpoints/
 
 # IDEs
 .vscode/
