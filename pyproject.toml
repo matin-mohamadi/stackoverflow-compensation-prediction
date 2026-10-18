@@ -1,7 +1,7 @@
 [project]
 name = "stackoverflow-compensation-prediction"
 version = "0.1.0"
-description = "Add your description here"
+description = "Predict developer compensation using Stack Overflow Annual Developer Survey data."
 readme = "README.md"
 authors = [
     { name = "Matin Mohammadi", email = "matinmohammadi031@gmail.com" }

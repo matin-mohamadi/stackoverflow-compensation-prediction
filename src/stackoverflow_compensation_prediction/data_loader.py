@@ -12,7 +12,7 @@ DATA_URL = "https://media.githubusercontent.com/media/StackExchange/Survey/main/
 
 
 def download_file(url: str, target_path):
-    # create data/raw/stack_overflow_2025 folder if it does not exist
+    # create data/raw/stack_overflow_2026 folder if it does not exist
     target_path.parent.mkdir(parents=True, exist_ok=True)
 
     # use a temp file name so broken downloads don`t stay
